@@ -13,8 +13,4 @@ target 'MeteorTracker' do
     # Pods for testing
   end
 
-  target 'MeteorTrackerUITests' do
-    # Pods for testing
-  end
-
 end
