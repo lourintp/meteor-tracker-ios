@@ -25,3 +25,11 @@ typealias ResultCallback<Value> = (Result<Value>) -> Void
 protocol APIClientProtocol {
     func request<T: APIRequest>(_ request: T, completion: @escaping ResultCallback<DataContainer<T.Response>>)
 }
+
+class APIClient: APIClientProtocol {
+    
+    func request<T>(_ request: T, completion: @escaping ResultCallback<DataContainer<T.Response>>) where T : APIRequest {
+        
+    }
+    
+}

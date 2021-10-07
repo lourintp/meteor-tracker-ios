@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7319A01118B53EC15B7E3686 /* Pods_MeteorTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FA1A473F5572BB2C7744A4 /* Pods_MeteorTrackerTests.framework */; };
 		8817B449270F64D200890495 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817B448270F64D200890495 /* AppDelegate.swift */; };
 		8817B44B270F64D200890495 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817B44A270F64D200890495 /* SceneDelegate.swift */; };
 		8817B44D270F64D200890495 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817B44C270F64D200890495 /* ViewController.swift */; };
@@ -14,10 +15,9 @@
 		8817B452270F64D500890495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8817B451270F64D500890495 /* Assets.xcassets */; };
 		8817B455270F64D500890495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8817B453270F64D500890495 /* LaunchScreen.storyboard */; };
 		8817B460270F64D500890495 /* MeteorTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817B45F270F64D500890495 /* MeteorTrackerTests.swift */; };
-		8817B46A270F64D500890495 /* MeteorTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817B469270F64D500890495 /* MeteorTrackerUITests.swift */; };
-		8817B46C270F64D500890495 /* MeteorTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817B46B270F64D500890495 /* MeteorTrackerUITestsLaunchTests.swift */; };
 		883116F7270F6E9900AA5E48 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883116F6270F6E9900AA5E48 /* APIClient.swift */; };
 		883116F9270F6FB500AA5E48 /* DataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883116F8270F6FB500AA5E48 /* DataContainer.swift */; };
+		E95C183016FFBB2ABAA38766 /* Pods_MeteorTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209B5E52C6B7B41F0A3753BC /* Pods_MeteorTracker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,16 +28,16 @@
 			remoteGlobalIDString = 8817B444270F64D200890495;
 			remoteInfo = MeteorTracker;
 		};
-		8817B466270F64D500890495 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8817B43D270F64D100890495 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8817B444270F64D200890495;
-			remoteInfo = MeteorTracker;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09B74BD72E6817107706A89D /* Pods-MeteorTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeteorTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-MeteorTrackerTests/Pods-MeteorTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		0CC199024E41D2511EE2F935 /* Pods_MeteorTracker_MeteorTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeteorTracker_MeteorTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		209B5E52C6B7B41F0A3753BC /* Pods_MeteorTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeteorTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D3C409411F0CA0A29BE1D9A /* Pods-MeteorTracker-MeteorTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeteorTracker-MeteorTrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-MeteorTracker-MeteorTrackerUITests/Pods-MeteorTracker-MeteorTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		34E087B16CFEE9B5333C1C44 /* Pods-MeteorTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeteorTrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-MeteorTrackerTests/Pods-MeteorTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		57FA1A473F5572BB2C7744A4 /* Pods_MeteorTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeteorTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7207FC4F007DC866C685EA6B /* Pods-MeteorTracker-MeteorTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeteorTracker-MeteorTrackerUITests.release.xcconfig"; path = "Target Support Files/Pods-MeteorTracker-MeteorTrackerUITests/Pods-MeteorTracker-MeteorTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8817B445270F64D200890495 /* MeteorTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeteorTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8817B448270F64D200890495 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8817B44A270F64D200890495 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,11 +48,10 @@
 		8817B456270F64D500890495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8817B45B270F64D500890495 /* MeteorTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeteorTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8817B45F270F64D500890495 /* MeteorTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorTrackerTests.swift; sourceTree = "<group>"; };
-		8817B465270F64D500890495 /* MeteorTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeteorTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8817B469270F64D500890495 /* MeteorTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorTrackerUITests.swift; sourceTree = "<group>"; };
-		8817B46B270F64D500890495 /* MeteorTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		883116F6270F6E9900AA5E48 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		883116F8270F6FB500AA5E48 /* DataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContainer.swift; sourceTree = "<group>"; };
+		9B48BBC29CEC91E28A13CC88 /* Pods-MeteorTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeteorTracker.release.xcconfig"; path = "Target Support Files/Pods-MeteorTracker/Pods-MeteorTracker.release.xcconfig"; sourceTree = "<group>"; };
+		CEDB6CC802FCA2C25F4E6DF7 /* Pods-MeteorTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeteorTracker.debug.xcconfig"; path = "Target Support Files/Pods-MeteorTracker/Pods-MeteorTracker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95C183016FFBB2ABAA38766 /* Pods_MeteorTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,26 +67,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8817B462270F64D500890495 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				7319A01118B53EC15B7E3686 /* Pods_MeteorTrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C3DA94C0593E4489BEB1C8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB6CC802FCA2C25F4E6DF7 /* Pods-MeteorTracker.debug.xcconfig */,
+				9B48BBC29CEC91E28A13CC88 /* Pods-MeteorTracker.release.xcconfig */,
+				2D3C409411F0CA0A29BE1D9A /* Pods-MeteorTracker-MeteorTrackerUITests.debug.xcconfig */,
+				7207FC4F007DC866C685EA6B /* Pods-MeteorTracker-MeteorTrackerUITests.release.xcconfig */,
+				34E087B16CFEE9B5333C1C44 /* Pods-MeteorTrackerTests.debug.xcconfig */,
+				09B74BD72E6817107706A89D /* Pods-MeteorTrackerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8817B43C270F64D100890495 = {
 			isa = PBXGroup;
 			children = (
 				8817B447270F64D200890495 /* MeteorTracker */,
 				8817B45E270F64D500890495 /* MeteorTrackerTests */,
-				8817B468270F64D500890495 /* MeteorTrackerUITests */,
 				8817B446270F64D200890495 /* Products */,
+				3C3DA94C0593E4489BEB1C8A /* Pods */,
+				ECD0AC6F83CFA7689AC03C51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +103,6 @@
 			children = (
 				8817B445270F64D200890495 /* MeteorTracker.app */,
 				8817B45B270F64D500890495 /* MeteorTrackerTests.xctest */,
-				8817B465270F64D500890495 /* MeteorTrackerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,15 +130,6 @@
 			path = MeteorTrackerTests;
 			sourceTree = "<group>";
 		};
-		8817B468270F64D500890495 /* MeteorTrackerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8817B469270F64D500890495 /* MeteorTrackerUITests.swift */,
-				8817B46B270F64D500890495 /* MeteorTrackerUITestsLaunchTests.swift */,
-			);
-			path = MeteorTrackerUITests;
-			sourceTree = "<group>";
-		};
 		883116F5270F6E7F00AA5E48 /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +139,16 @@
 			path = APIClient;
 			sourceTree = "<group>";
 		};
+		ECD0AC6F83CFA7689AC03C51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				209B5E52C6B7B41F0A3753BC /* Pods_MeteorTracker.framework */,
+				0CC199024E41D2511EE2F935 /* Pods_MeteorTracker_MeteorTrackerUITests.framework */,
+				57FA1A473F5572BB2C7744A4 /* Pods_MeteorTrackerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8817B46F270F64D500890495 /* Build configuration list for PBXNativeTarget "MeteorTracker" */;
 			buildPhases = (
+				75B2512DC1BEF58B900FDD70 /* [CP] Check Pods Manifest.lock */,
 				8817B441270F64D200890495 /* Sources */,
 				8817B442270F64D200890495 /* Frameworks */,
 				8817B443270F64D200890495 /* Resources */,
+				EEAC420C401B44BE32232564 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8817B472270F64D500890495 /* Build configuration list for PBXNativeTarget "MeteorTrackerTests" */;
 			buildPhases = (
+				83863BC6F753A46B9B09C4F6 /* [CP] Check Pods Manifest.lock */,
 				8817B457270F64D500890495 /* Sources */,
 				8817B458270F64D500890495 /* Frameworks */,
 				8817B459270F64D500890495 /* Resources */,
@@ -178,24 +189,6 @@
 			productName = MeteorTrackerTests;
 			productReference = 8817B45B270F64D500890495 /* MeteorTrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8817B464270F64D500890495 /* MeteorTrackerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8817B475270F64D500890495 /* Build configuration list for PBXNativeTarget "MeteorTrackerUITests" */;
-			buildPhases = (
-				8817B461270F64D500890495 /* Sources */,
-				8817B462270F64D500890495 /* Frameworks */,
-				8817B463270F64D500890495 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8817B467270F64D500890495 /* PBXTargetDependency */,
-			);
-			name = MeteorTrackerUITests;
-			productName = MeteorTrackerUITests;
-			productReference = 8817B465270F64D500890495 /* MeteorTrackerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -211,10 +204,6 @@
 						CreatedOnToolsVersion = 13.0;
 					};
 					8817B45A270F64D500890495 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 8817B444270F64D200890495;
-					};
-					8817B464270F64D500890495 = {
 						CreatedOnToolsVersion = 13.0;
 						TestTargetID = 8817B444270F64D200890495;
 					};
@@ -235,7 +224,6 @@
 			targets = (
 				8817B444270F64D200890495 /* MeteorTracker */,
 				8817B45A270F64D500890495 /* MeteorTrackerTests */,
-				8817B464270F64D500890495 /* MeteorTrackerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,14 +246,71 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8817B463270F64D500890495 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75B2512DC1BEF58B900FDD70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeteorTracker-checkManifestLockResult.txt",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		83863BC6F753A46B9B09C4F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeteorTrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEAC420C401B44BE32232564 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeteorTracker/Pods-MeteorTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeteorTracker/Pods-MeteorTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeteorTracker/Pods-MeteorTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8817B441270F64D200890495 /* Sources */ = {
@@ -288,15 +333,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8817B461270F64D500890495 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8817B46A270F64D500890495 /* MeteorTrackerUITests.swift in Sources */,
-				8817B46C270F64D500890495 /* MeteorTrackerUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -304,11 +340,6 @@
 			isa = PBXTargetDependency;
 			target = 8817B444270F64D200890495 /* MeteorTracker */;
 			targetProxy = 8817B45C270F64D500890495 /* PBXContainerItemProxy */;
-		};
-		8817B467270F64D500890495 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8817B444270F64D200890495 /* MeteorTracker */;
-			targetProxy = 8817B466270F64D500890495 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -383,7 +414,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -438,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -450,6 +481,7 @@
 		};
 		8817B470270F64D500890495 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEDB6CC802FCA2C25F4E6DF7 /* Pods-MeteorTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,8 +493,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,12 +506,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8817B471270F64D500890495 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B48BBC29CEC91E28A13CC88 /* Pods-MeteorTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -489,8 +524,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -500,14 +537,15 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		8817B473270F64D500890495 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E087B16CFEE9B5333C1C44 /* Pods-MeteorTrackerTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -531,8 +569,9 @@
 		};
 		8817B474270F64D500890495 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09B74BD72E6817107706A89D /* Pods-MeteorTrackerTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -551,52 +590,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeteorTracker.app/MeteorTracker";
-			};
-			name = Release;
-		};
-		8817B476270F64D500890495 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XHUK48HJV9;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lourin.MeteorTrackerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MeteorTracker;
-			};
-			name = Debug;
-		};
-		8817B477270F64D500890495 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XHUK48HJV9;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lourin.MeteorTrackerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MeteorTracker;
 			};
 			name = Release;
 		};
@@ -626,15 +619,6 @@
 			buildConfigurations = (
 				8817B473270F64D500890495 /* Debug */,
 				8817B474270F64D500890495 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8817B475270F64D500890495 /* Build configuration list for PBXNativeTarget "MeteorTrackerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8817B476270F64D500890495 /* Debug */,
-				8817B477270F64D500890495 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
